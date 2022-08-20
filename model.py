@@ -1,6 +1,9 @@
 """Models and database functions for Ratings project."""
 
 from flask_sqlalchemy import SQLAlchemy
+# import could not be resolved for flas_sqlalchemy - chcecking my (env) is active, pip3 list shows it is installed correctly.
+# moving on.
+# password authentication issues again.. unable to proceed past the (env) python3 -i model.py steps. I did connect to DB >>> successfully.
 
 # This is the connection to the PostgreSQL database; we're getting this through
 # the Flask-SQLAlchemy helper library. On this, we can find the `session`
@@ -25,6 +28,7 @@ class User(db.Model):
 
 
 # Put your Movie and Rating model classes here.
+    
 
 
 ##############################################################################
